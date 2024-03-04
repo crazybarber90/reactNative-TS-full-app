@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "hm",
+    "project_id": "hm",
+    "storage_bucket": "hmhm"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "hm hm",
+        "android_client_info": {
+          "package_name": "com.hm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "hm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hmhm",
+            "certificate_hash": "hm"
+          }
+        },
+        {
+          "client_id": "hm",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "hm"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "hm",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "hm",
+        "android_client_info": {
+          "package_name": "hm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "hm hm.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "hm"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "hm.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

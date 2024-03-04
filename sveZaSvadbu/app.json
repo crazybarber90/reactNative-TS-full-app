@@ -1,0 +1,81 @@
+{
+  "expo": {
+    "name": "EDIT_APP_NAME",
+    "slug": "guru-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyB-GsNugRiLaxaV3j8hWknan-dna0lp1XE"
+      },
+      "bundleIdentifier": "com.raz.voj.gurunative",
+      "infoPlist": {
+        "NSLocationUsageDescription": "App requires location even when the App is backgrounded.",
+        "NSLocationWhenInUseUsageDescription": "App requires location even when the App is backgrounded.",
+        "NSLocationAlwaysUsageDescription": "App requires location even when the App is backgrounded.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "App requires location even when the App is backgrounded.",
+        "UIBackgroundModes": [
+          "location",
+          "fetch",
+          "remote-notification"
+        ],
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB8YRahAIRvxSE-2DcxIjmhRfMTv-Serb8"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.raz.voj.gurunative",
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.INTERNET",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ffc8c1b9-99c5-4c77-ace3-10279d79e6cf"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ffc8c1b9-99c5-4c77-ace3-10279d79e6cf"
+    }
+  }
+}
